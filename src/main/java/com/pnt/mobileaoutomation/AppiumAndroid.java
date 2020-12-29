@@ -18,7 +18,7 @@ public class AppiumAndroid {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
         cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10");
-        cap.setCapability(MobileCapabilityType.UDID, "RFCNA041SVJ");
+        cap.setCapability(MobileCapabilityType.UDID, "RFCNA041SVJ");//Ammu's phone
 
         //cap.setCapability(MobileCapabilityType.APP_PACKAGE, "");
         //cap.setCapability(MobileCapabilityType.APP_ACTIVITY, "");
